@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+.layer-label {
+	background-color: #FFF;
+	border: transparent;
+	box-shadow: none;
+	font-family: Papyrus, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: expanded;
+	color: #003087;
+}
+
+.buttons-container {
+    left: 150px;
+	top: 51px;
+    z-index: 99999;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons-container > div:first-child {
+	margin-left: 0;
+}
+
+.toggle-button {
+	height: fit-content;
+	width: fit-content;
+	padding: 8px 12px;
+	margin-left: 20px;
+	background: rgba(100, 100, 100, 0.3);
+	cursor: pointer;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 26px;
+    font-family: Arial;
+    border-radius: 5px;
+}
+
+.toggle-button:hover {
+	background: rgba(100, 100, 100, 0.5);
+}
+
+.toggle-button:active {
+	background: rgba(100, 100, 100, 0.5);
+	box-sizing: border-box;
+	border: 2px solid black;
+}
